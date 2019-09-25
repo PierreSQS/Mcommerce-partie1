@@ -1,0 +1,162 @@
+{
+	"id": "daa180d2-0abb-42ca-86a8-2574863d7f8c",
+	"name": "OpenClassRoom - Construisez des Microservices",
+	"allTests": [],
+	"timestamp": "2019-09-25T13:18:29.207Z",
+	"collection_id": "800668fc-fe6c-4463-a765-bbbe53849b24",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "800668fc-fe6c-4463-a765-bbbe53849b24",
+		"name": "OpenClassRoom - Construisez des Microservices",
+		"description": null,
+		"auth": null,
+		"events": null,
+		"variables": null,
+		"order": [
+			"8775d7e4-a55b-49f6-8006-1d8969c3eaed",
+			"9d5bf01f-3c4f-4be9-9b38-5339c8d07454",
+			"1f9aa76b-2354-459a-860b-b7b218b1d084"
+		],
+		"folders_order": [],
+		"owner": "7840476",
+		"favorite": false,
+		"protocolProfileBehavior": {}
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "localhost:9090/Produits",
+			"id": "8775d7e4-a55b-49f6-8006-1d8969c3eaed",
+			"url": "localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 417,
+				"name": "Expectation Failed",
+				"detail": {
+					"name": "Expectation Failed",
+					"detail": "The server cannot meet the requirements of the Expect request-header field."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"7"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "7",
+			"totalRequestTime": "7",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:9090/AdminProduits",
+			"id": "9d5bf01f-3c4f-4be9-9b38-5339c8d07454",
+			"url": "localhost:9090/AdminProduits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"11"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "11",
+			"totalRequestTime": "11",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:9090/ProduitsOrdreAlphabetique",
+			"id": "1f9aa76b-2354-459a-860b-b7b218b1d084",
+			"url": "localhost:9090/ProduitsOrdreAlphabetique",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"9"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "9",
+			"totalRequestTime": "9",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 27,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "localhost:9090/Produits",
+			"id": "8775d7e4-a55b-49f6-8006-1d8969c3eaed",
+			"url": "localhost:9090/Produits",
+			"time": "2019-09-25T13:18:29.207Z",
+			"responseCode": {
+				"code": 417,
+				"name": "Expectation Failed",
+				"detail": {
+					"name": "Expectation Failed",
+					"detail": "The server cannot meet the requirements of the Expect request-header field."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:9090/AdminProduits",
+			"id": "9d5bf01f-3c4f-4be9-9b38-5339c8d07454",
+			"url": "localhost:9090/AdminProduits",
+			"time": "2019-09-25T13:18:29.207Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:9090/ProduitsOrdreAlphabetique",
+			"id": "1f9aa76b-2354-459a-860b-b7b218b1d084",
+			"url": "localhost:9090/ProduitsOrdreAlphabetique",
+			"time": "2019-09-25T13:18:29.207Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}

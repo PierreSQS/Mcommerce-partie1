@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "800668fc-fe6c-4463-a765-bbbe53849b24",
+		"name": "OpenClassRoom - Construisez des Microservices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:9090/Produits",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"nom\": \"Produit gratuit\",\r\n  \"prix\": 0,\r\n  \"prixAchat\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9090/Produits",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"Produits"
+					]
+				},
+				"description": "Teste le prix = 0 de la méthode ajouterProduit()"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9090/AdminProduits",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/AdminProduits",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"AdminProduits"
+					]
+				},
+				"description": "Teste la méthode calculerMargeProduit()"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9090/ProduitsOrdreAlphabetique",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/ProduitsOrdreAlphabetique",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"ProduitsOrdreAlphabetique"
+					]
+				},
+				"description": "teste la méthode trierProduitsParOrdreAlphabetique()"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
