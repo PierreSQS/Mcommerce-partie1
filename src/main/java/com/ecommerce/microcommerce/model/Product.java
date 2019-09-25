@@ -19,7 +19,7 @@ public class Product {
     @Length(min=3, max=20, message = "Nom trop long ou trop court. Et oui messages sont plus stylés que ceux de Spring")
     private String nom;
 
-    @Min(value = 1)
+    //@Min(value = 1) Decommenté pour les raisons de la partie 3 de l'exercice
     private int prix;
 
     //information que nous ne souhaitons pas exposer
