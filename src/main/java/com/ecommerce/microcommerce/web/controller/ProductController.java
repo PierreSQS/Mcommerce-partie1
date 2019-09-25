@@ -84,6 +84,16 @@ public class ProductController {
 		return produitsMarge;
 	}
 
+	// Afficher les produits par ordre alphabétique
+	@ApiOperation(value = "Affiche tous les produits par ordre alphabétique")
+	@GetMapping(value = "/ProduitsOrdreAlphabetique")
+
+	public List<Product> trierProduitsParOrdreAlphabetique() {
+
+		return productDao.findByIdGreaterThanOrderByNomAsc(0);
+	}
+
+
 	// ajouter un produit
 	@PostMapping(value = "/Produits")
 
